@@ -130,6 +130,6 @@ var methods = {
   }
 }
 
-export function slideScroll() {
+export function installMethod(instance) {
 
 }

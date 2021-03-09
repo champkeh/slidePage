@@ -6,6 +6,7 @@
 ### 魔改的内容
 - 采用现代js库(npm包)的封装方法
 - 非标准的`mousewheel`事件替换为标准的`wheel`事件
+- 采用`rollup`代替`glup`作为构建工具
 
 ### Demo:
 * [simple](http://lipten.link/projects/slidePage3/examples/simple.html)
@@ -16,7 +17,7 @@
 * [fullFeatured](http://lipten.link/projects/slidePage3/examples/fullFeatured.html)
 
 ### Featured
-slidePage3 特别适合主流前端框架开发，无任何依赖库，Gzip压缩后仅有2.4k, 接口符合插件具有的初始化、销毁、重载的方法，适配PC和移动端，可实现内容超出屏幕滚动、手动播放动画、动态更新等特色功能，具体查看完整示例: [fullFeatured](http://lipten.link/projects/slidePage3/examples/fullFeatured.html)
+SlidePage 特别适合主流前端框架开发，无任何依赖库，Gzip压缩后仅有2.4k, 接口符合插件具有的初始化、销毁、重载的方法，适配PC和移动端，可实现内容超出屏幕滚动、手动播放动画、动态更新等特色功能，具体查看完整示例: [fullFeatured](http://lipten.link/projects/slidePage3/examples/fullFeatured.html)
 
 ### Documentation:
 * [Usage](#usage)

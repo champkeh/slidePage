@@ -1,31 +1,29 @@
 import babel from 'rollup-plugin-babel';
-import json from 'rollup-plugin-json';
 
-export default [
-  {
-    file: 'lib/cjs.js',
-    format: 'cjs',
-  },
-  {
-    file: 'lib/m.js',
-    format: 'esm',
-  },
-  {
-    file: 'lib/umd.js',
-    format: 'umd',
-    name: 'seeFetch',
-  },
-  {
-    file: 'lib/amd.js',
-    format: 'amd',
-  },
-].map(output => ({
-  input: 'src/index.js',
-  output,
+export default {
+  input: 'src/slidePage.js',
+  output: [
+    {
+      file: 'dist/slidePage.cjs.js',
+      format: 'cjs',
+    },
+    {
+      file: 'dist/slidePage.esm.js',
+      format: 'esm',
+    },
+    {
+      file: 'dist/slidePage.umd.js',
+      format: 'umd',
+      name: 'slidePage',
+    },
+    {
+      file: 'dist/slidePage.amd.js',
+      format: 'amd',
+    },
+  ],
   plugins: [
     babel({
       presets: ['@babel/preset-env'],
     }),
-    json(),
   ],
-}));
+};

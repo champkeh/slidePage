@@ -1,15 +1,18 @@
 {
-  "name": "slidePage",
+  "name": "slide-page",
   "version": "3.2.7",
-  "description": "slidePage.js is a simple and universal to use libary to create fullscreen scrolling websites",
-  "main": "dist/slidePage.min.js",
+  "description": "SlidePage.js is a simple and universal to use library to create fullscreen scrolling websites",
+  "main": "dist/slidePage.umd.js",
+  "module": "dist/slidePage.esm.js",
   "directories": {
     "example": "examples"
   },
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "webpack": "webpack",
-    "build": "gulp",
-    "server": "node server"
+    "build": "rollup --config",
+    "server": "node scripts/server.js"
   },
   "repository": {
     "type": "git",
@@ -26,25 +29,18 @@
   ],
   "author": "champkeh <champion.ge@gmail.com>",
   "license": "MIT",
-  "homepage": "http://lipten.github.io/slidePage/",
+  "homepage": "https://github.com/champkeh/slidePage",
   "devDependencies": {
     "@babel/core": "^7.4.5",
     "@babel/preset-env": "^7.1.6",
     "@babel/runtime": "^7.1.5",
-    "express": "^4.16.3",
-    "gulp": "^3.9.1",
-    "gulp-babel": "^8.0.0",
-    "gulp-clean-css": "^3.9.2",
-    "gulp-cli": "^2.0.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-uglify": "^3.0.0",
     "eslint": "^6.7.2",
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.0",
-    "rollup": "^0.66.2",
-    "rollup-plugin-babel": "^4.0.3",
-    "rollup-plugin-json": "^3.1.0"
+    "express": "^4.16.3",
+    "rollup": "^2.41.0",
+    "rollup-plugin-babel": "^4.0.3"
   }
 }
