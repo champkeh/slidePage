@@ -5,3 +5,4 @@ bower_components/
 yarn-error.log
 package-lock.json
 .history/
+dist
