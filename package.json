@@ -13,10 +13,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:lipten/slidePage.git"
+    "url": "git@github.com:champkeh/slidePage.git"
   },
   "bugs": {
-    "url": "https://github.com/lipten/slidePage/issues"
+    "url": "https://github.com/champkeh/slidePage/issues"
   },
   "keywords": [
     "fullscreen",
@@ -24,7 +24,7 @@
     "h5",
     "fullpage"
   ],
-  "author": "lipten < lipten@foxmail.com >",
+  "author": "champkeh <champion.ge@gmail.com>",
   "license": "MIT",
   "homepage": "http://lipten.github.io/slidePage/",
   "devDependencies": {
@@ -37,6 +37,14 @@
     "gulp-clean-css": "^3.9.2",
     "gulp-cli": "^2.0.0",
     "gulp-rename": "^1.2.2",
-    "gulp-uglify": "^3.0.0"
+    "gulp-uglify": "^3.0.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "rollup": "^0.66.2",
+    "rollup-plugin-babel": "^4.0.3",
+    "rollup-plugin-json": "^3.1.0"
   }
 }

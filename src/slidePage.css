@@ -15,10 +15,9 @@
   -webkit-overflow-scrolling: touch;
   -webkit-tap-highlight-color:rgba(255,255,255,0);
   -webkit-text-size-adjust: none;
-  -webkit-backface-visibility:hidden;-webkit-transform-style:preserve-3d;
+  -webkit-backface-visibility:hidden;
+  -webkit-transform-style:preserve-3d;
   background-position: center;
-}
-.slide-container .slide-page {
   transform: translate3d(0,100%,0);
   -webkit-transform: translate3d(0,100%,0);
 }

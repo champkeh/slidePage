@@ -1,4 +1,11 @@
-# slidePage
+# SlidePage
+
+> 说明：
+> 该仓库是fork自 https://github.com/lipten/slidePage, 为了适合自己的项目fork了一份进行魔改
+
+### 魔改的内容
+- 采用现代js库(npm包)的封装方法
+- 非标准的`mousewheel`事件替换为标准的`wheel`事件
 
 ### Demo:
 * [simple](http://lipten.link/projects/slidePage3/examples/simple.html)
